@@ -1,0 +1,99 @@
+body {
+    background-image: url("img/ecailles_@2X.png");
+}
+
+#all_body
+{
+    top: 10px;
+    max-width: 1000px;
+    min-width: auto;
+    position: relative;
+    margin:auto;
+    background-color:white;
+    color:black;
+    /*border: #e6f0ff solid 1px;*/
+}
+
+#all_body2
+{
+
+    max-width: 1000px;
+    min-width: auto;
+    position: relative;
+    margin:auto;
+    border: #e6f0ff solid 1px;
+    background-color: white;
+}
+
+.status
+{
+    max-width: 1000px;
+    min-width: auto;
+    position: relative;
+    margin:auto;
+}
+
+
+.item img
+{
+    width: 100%;
+    height: auto;
+    clip: rect(0px,60px,200px,0px);
+}
+
+.carousel-inner
+{
+    height:300px;
+
+}
+
+.carousel slide
+{
+    min-width:100px;
+    min-height:100px;
+}
+
+
+.navbar-default
+{
+    color: Black;
+}
+
+.img
+{
+    display:inline-block;
+    margin:auto;
+    padding-left:15px;
+    padding-right: 15px;
+}
+
+.spacer
+{
+    margin:auto;
+    text-align:center;
+}
+
+.footer
+{
+    height: 100px;
+    max-width: 1000px;
+    min-width: auto;
+    position: relative;
+    margin:auto;
+    background-color: #000000;
+}
+
+.text
+{
+    color: White;
+    position:relative;
+    text-align:center;
+    top:50%;
+}
+
+#map
+{
+    max-width: 1000px;
+    min-width: auto;
+    height: 300px;
+}
