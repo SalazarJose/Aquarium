@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Page</title>
+        <meta charset="utf-8">
+            <link rel="stylesheet" type="text/css" href="theme.css">
+                <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+                    <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                            </head>
+    <body>
+        <div id="all_body">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="index.html">Aquarium Website</a>
+                        </div>
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#"> About </a></li>
+                            <li class="active"><a href="#"> Contact </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        
+        <div class="status">
+            <div class="alert alert-info">
+                <strong>Status:</strong> This project is still in the development phase.
+            </div>
+        </div>
+        
+        <div id="all_body2">
+            
+            <div id="map"></div>
+            
+            <script>
+                function myMap() {
+                    var mapCanvas = document.getElementById("map");
+                    var mapOptions = {
+                        center: new google.maps.LatLng(33.214633, -97.133005), zoom: 10
+                    };
+                    var map = new google.maps.Map(mapCanvas, mapOptions);
+                }
+            </script>
+            
+            <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+            
+            
+            
+            <div class="spacer">
+                <div class="content">
+                    <h3>Get In Touch With Us!</h3>
+                    <p></p>
+                </div>
+                
+                <br>
+                <div class="w3-container">
+                    <ul class="w3-ul w3-card-5">
+                        <li class="w3-padding-2">
+                            <img src="img/pp.png" class="w3-left w3-circle w3-margin-auto" style="width:60px"><br>
+                                <span class="w3-xlarge">Jose Salazar</span><br>
+                                <span>Web Designer / Web Developer</span><br>
+                                <span>1234 Some Street, Denton, TX 756209  |  Someaddress@gmail.com</span><br>
+                                
+                                </li>
+                    </ul>
+                    
+                    <br>
+                    <br>
+                    <div class="form-group">
+                        <label for="comment">Submit a message:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+                    <div class="container">
+                        <input type="submit" class="btn btn-info" value="Submit">
+                            </div>
+                    
+                    
+                    
+                    
+                </div>
+                
+            </div>
+            
+            <div class="footer">
+                <div class="text">
+                    <p>Development Project by Jose Salazar</p>
+                </div>
+            </div>
+            
+            <!-- jQuery first, then Tether, then Bootstrap JS. -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+            </body>
+</html>
